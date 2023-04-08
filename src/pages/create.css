@@ -1,0 +1,27 @@
+
+.ButtonCSS {
+background-color: #61DAFB;
+color: white;
+font-size: 20px;
+padding: 10px 60px;
+border-radius: 40px;
+margin: 10px 40px 30px;
+//cursor: pointer;
+}
+
+.balanceInput {
+  margin-left: 10px;
+}
+
+.Loading-logo {
+  height: 40vmin;
+  pointer-events: none;
+  animation-iteration-count: 22;
+  padding-bottom: 30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Loading-logo {
+    animation-iteration-count: 22;
+  }
+}
